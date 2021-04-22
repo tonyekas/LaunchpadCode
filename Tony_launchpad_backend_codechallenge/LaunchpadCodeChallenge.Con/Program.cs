@@ -1,12 +1,14 @@
 ﻿using System;
+using System.Collections.Generic;
+using static LaunchpadCodeChallenge.Con.QuestionClass;
 
 namespace LaunchpadCodeChallenge.Con
 {
-    class Program
+    public class Program
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Console.Write(listOfNames); // 
         }
     }
 }

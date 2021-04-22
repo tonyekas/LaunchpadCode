@@ -1,0 +1,12 @@
+version: '3.4'
+
+services:
+  launchpadcodechallenge.api:
+    image: ${DOCKER_REGISTRY-}launchpadcodechallengeapi
+    container_name: "codechallenge"
+    build:
+      context: .
+      dockerfile: LaunchpadCodeChallenge.API/Dockerfile
+    ports:
+      - "33002:80"
+      - "33003:443"

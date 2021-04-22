@@ -19,7 +19,7 @@ namespace LaunchpadCodeChallenge.API.Controllers
             _employeeService = employeeService;
         }
 
-        [HttpGet]
+        [HttpGet("employees")]
         public async Task<ActionResult<IEnumerable<Employee>>> GetAll()
         {
             var employee = await _employeeService.GetAll();
@@ -27,10 +27,10 @@ namespace LaunchpadCodeChallenge.API.Controllers
         }
 
         [HttpGet("list")] //("list")
-        public async Task<ActionResult<List<Employee>>> ListAll()
+        public async Task<ActionResult<List<Department>>> ListAll(Department dept)
         {
             var results = await _employeeService.ListAll();
-            //var models = results.Select(item => new Employee(item));
+            var models = results.Select(dept => new Department(dept));
             return Ok(results);
 
         }

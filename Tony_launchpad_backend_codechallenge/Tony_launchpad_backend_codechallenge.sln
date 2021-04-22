@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LaunchpadCodeChallenge.App"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LaunchpadCodeChallenge.Con", "LaunchpadCodeChallenge.Con\LaunchpadCodeChallenge.Con.csproj", "{D8462236-5FA9-4478-AE7A-FC99F6E2C732}"
 EndProject
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{78128981-F181-42BC-8B2E-43B6CB59D871}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{D8462236-5FA9-4478-AE7A-FC99F6E2C732}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D8462236-5FA9-4478-AE7A-FC99F6E2C732}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D8462236-5FA9-4478-AE7A-FC99F6E2C732}.Release|Any CPU.Build.0 = Release|Any CPU
+		{78128981-F181-42BC-8B2E-43B6CB59D871}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{78128981-F181-42BC-8B2E-43B6CB59D871}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{78128981-F181-42BC-8B2E-43B6CB59D871}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{78128981-F181-42BC-8B2E-43B6CB59D871}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
