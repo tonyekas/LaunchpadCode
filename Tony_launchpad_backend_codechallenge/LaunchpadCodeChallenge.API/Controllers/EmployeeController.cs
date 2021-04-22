@@ -30,7 +30,7 @@ namespace LaunchpadCodeChallenge.API.Controllers
         public async Task<ActionResult<List<Department>>> ListAll(Department dept)
         {
             var results = await _employeeService.ListAll();
-            var models = results.Select(dept => new Department(dept));
+            //var models = results.Select(dept => new Department(dept));
             return Ok(results);
 
         }

@@ -14,4 +14,5 @@ namespace LaunchpadCodeChallenge.Con
         };
         public static string listOfNames = string.Join(Environment.NewLine, NamesList);
     }
+
 }
